@@ -48,7 +48,4 @@ cy.visit('https://admin:admin@the-internet.herokuapp.com/basic_auth')
     cy.get('.example').should('have.contain','Congratulations')
 
 })
-
-
-
 })
